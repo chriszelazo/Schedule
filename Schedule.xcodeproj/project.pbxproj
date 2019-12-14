@@ -10,6 +10,18 @@
 		835DF26F23A589AB009AC8B2 /* Schedule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835DF26523A589AB009AC8B2 /* Schedule.framework */; };
 		835DF27423A589AB009AC8B2 /* ScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835DF27323A589AB009AC8B2 /* ScheduleTests.swift */; };
 		835DF27623A589AB009AC8B2 /* Schedule.h in Headers */ = {isa = PBXBuildFile; fileRef = 835DF26823A589AB009AC8B2 /* Schedule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		835DF28B23A589EC009AC8B2 /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835DF27F23A589EC009AC8B2 /* Interval.swift */; };
+		835DF28C23A589EC009AC8B2 /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835DF28023A589EC009AC8B2 /* Weekday.swift */; };
+		835DF28D23A589EC009AC8B2 /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835DF28123A589EC009AC8B2 /* Plan.swift */; };
+		835DF28E23A589EC009AC8B2 /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835DF28223A589EC009AC8B2 /* Atomic.swift */; };
+		835DF28F23A589EC009AC8B2 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835DF28323A589EC009AC8B2 /* Bag.swift */; };
+		835DF29023A589EC009AC8B2 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835DF28423A589EC009AC8B2 /* Task.swift */; };
+		835DF29123A589EC009AC8B2 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835DF28523A589EC009AC8B2 /* Time.swift */; };
+		835DF29223A589EC009AC8B2 /* RunLoopTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835DF28623A589EC009AC8B2 /* RunLoopTask.swift */; };
+		835DF29323A589EC009AC8B2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835DF28723A589EC009AC8B2 /* Extensions.swift */; };
+		835DF29423A589EC009AC8B2 /* Monthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835DF28823A589EC009AC8B2 /* Monthday.swift */; };
+		835DF29523A589EC009AC8B2 /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835DF28923A589EC009AC8B2 /* Period.swift */; };
+		835DF29623A589EC009AC8B2 /* TaskCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835DF28A23A589EC009AC8B2 /* TaskCenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +41,18 @@
 		835DF26E23A589AB009AC8B2 /* ScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScheduleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		835DF27323A589AB009AC8B2 /* ScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTests.swift; sourceTree = "<group>"; };
 		835DF27523A589AB009AC8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		835DF27F23A589EC009AC8B2 /* Interval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interval.swift; sourceTree = "<group>"; };
+		835DF28023A589EC009AC8B2 /* Weekday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weekday.swift; sourceTree = "<group>"; };
+		835DF28123A589EC009AC8B2 /* Plan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		835DF28223A589EC009AC8B2 /* Atomic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Atomic.swift; sourceTree = "<group>"; };
+		835DF28323A589EC009AC8B2 /* Bag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
+		835DF28423A589EC009AC8B2 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		835DF28523A589EC009AC8B2 /* Time.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		835DF28623A589EC009AC8B2 /* RunLoopTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunLoopTask.swift; sourceTree = "<group>"; };
+		835DF28723A589EC009AC8B2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		835DF28823A589EC009AC8B2 /* Monthday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monthday.swift; sourceTree = "<group>"; };
+		835DF28923A589EC009AC8B2 /* Period.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Period.swift; sourceTree = "<group>"; };
+		835DF28A23A589EC009AC8B2 /* TaskCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +95,18 @@
 		835DF26723A589AB009AC8B2 /* Schedule */ = {
 			isa = PBXGroup;
 			children = (
+				835DF28223A589EC009AC8B2 /* Atomic.swift */,
+				835DF28323A589EC009AC8B2 /* Bag.swift */,
+				835DF28723A589EC009AC8B2 /* Extensions.swift */,
+				835DF27F23A589EC009AC8B2 /* Interval.swift */,
+				835DF28823A589EC009AC8B2 /* Monthday.swift */,
+				835DF28923A589EC009AC8B2 /* Period.swift */,
+				835DF28123A589EC009AC8B2 /* Plan.swift */,
+				835DF28623A589EC009AC8B2 /* RunLoopTask.swift */,
+				835DF28423A589EC009AC8B2 /* Task.swift */,
+				835DF28A23A589EC009AC8B2 /* TaskCenter.swift */,
+				835DF28523A589EC009AC8B2 /* Time.swift */,
+				835DF28023A589EC009AC8B2 /* Weekday.swift */,
 				835DF26823A589AB009AC8B2 /* Schedule.h */,
 				835DF26923A589AB009AC8B2 /* Info.plist */,
 			);
@@ -148,6 +184,7 @@
 				TargetAttributes = {
 					835DF26423A589AB009AC8B2 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 					835DF26D23A589AB009AC8B2 = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -195,6 +232,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				835DF28F23A589EC009AC8B2 /* Bag.swift in Sources */,
+				835DF29523A589EC009AC8B2 /* Period.swift in Sources */,
+				835DF29323A589EC009AC8B2 /* Extensions.swift in Sources */,
+				835DF28E23A589EC009AC8B2 /* Atomic.swift in Sources */,
+				835DF29123A589EC009AC8B2 /* Time.swift in Sources */,
+				835DF28C23A589EC009AC8B2 /* Weekday.swift in Sources */,
+				835DF29423A589EC009AC8B2 /* Monthday.swift in Sources */,
+				835DF29623A589EC009AC8B2 /* TaskCenter.swift in Sources */,
+				835DF28B23A589EC009AC8B2 /* Interval.swift in Sources */,
+				835DF29023A589EC009AC8B2 /* Task.swift in Sources */,
+				835DF29223A589EC009AC8B2 /* RunLoopTask.swift in Sources */,
+				835DF28D23A589EC009AC8B2 /* Plan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +389,7 @@
 		835DF27A23A589AB009AC8B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -355,6 +405,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zelazo.Schedule;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +414,7 @@
 		835DF27B23A589AB009AC8B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -386,6 +438,7 @@
 		835DF27D23A589AB009AC8B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ScheduleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,6 +456,7 @@
 		835DF27E23A589AB009AC8B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ScheduleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
